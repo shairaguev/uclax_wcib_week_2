@@ -1,7 +1,86 @@
 body {
-	font-family: sans-serif;
+ background: url('/images/Ohwonderbackground.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+ font-family: helvetica, sans-serif;
 
-	img {
-		width: 100%;
+  header {
+		background-color: #232325;
 	}
+
+  .headerlogo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+ h1 {
+	font-family: helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-align: center;
+	color:#232325;
+	font-size: 30px;
+
 }
+
+  section {
+	margin-left: center;
+	margin-right: center;
+	margin-top: 50px;
+	}
+
+  iframe {
+		display: block;
+		margin: auto;
+	}
+
+	article {
+   display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	 margin-top: 60px;
+   }
+
+	 .image {
+		 display: block;
+		 margin-left: auto;
+		 margin-right: auto;
+		 width: 50%
+	 }
+
+  h2 {
+    display: block;
+		text-align: center;
+		text-transform: uppercase;
+		color: #40afb8;
+		font-size: 20px;
+		margin-top: 30px;
+	}
+
+	p {
+    display: block;
+		margin-top: 5px;
+		margin-bottom: 25px;
+		text-align: center;
+		font-size: 14;
+		color: white;
+	}
+
+	h3{
+		text-align: center;
+	}
+
+	.center {
+	 text-align: center;
+	 list-style-position: inside;
+  }
+
+		ol.center li
+		{
+		 text-align: left;
+		 margin-left: 45%;
+	 }
